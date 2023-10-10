@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    /*background-color: #121212;*/
+    background-image: url('resources/images/blackorange.png');
+    background-size: cover;
+    background-position: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #1a1a1a;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 8px black;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;;
+}
+
+.navbar a:hover {
+    background-color: #d37000;
+    color: black;
+}
+
+.navbar a span {
+    vertical-align: middle;
+}
+
+.navbar a span.material-icons-outlined {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .login {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .navbar .login span {
+    vertical-align: middle;
+  }
+
+.active {
+    background-color: #eb7e02;
+    color: black;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 3%;
+}
+
+.summary-container {
+    flex: 1;
+    margin-left: 20px;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border-radius: 3%;
+}
+
+.form-container label,
+.summary-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container input[type="number"] {
+    margin-bottom: 20px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.summary-container p {
+    margin-bottom: 10px;
+}

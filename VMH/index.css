@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    /*background-color: #121212;*/
+    background-image: url('resources/images/blackorange.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #1a1a1a;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 8px black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;;
+}
+
+.navbar a:hover {
+    background-color: #eb7e02;
+    color: black;
+}
+
+.navbar a span {
+    vertical-align: middle;
+}
+
+.navbar a span.material-icons-outlined {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .login {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .navbar .login span {
+    vertical-align: middle;
+  }
+
+.active {
+    background-color: #eb7e02;
+    color: black;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+.company-info {
+    background-color: #1a1a1a;;
+    color: #fff;
+    border: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    border-radius: 10px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.company-info h2 {
+    margin-top: 0;
+}
+
+.company-info p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}

@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    /*background-color: #121212;*/
+    background-image: url('resources/images/blackorange.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #1a1a1a;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 8px black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 4px 2px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;;
+}
+
+.navbar a:hover {
+    background-color: #d37000;
+    color: black;
+}
+
+.navbar a span {
+    vertical-align: middle;
+}
+
+.navbar a span.material-icons-outlined {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .login1 {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .navbar .login1 span {
+    vertical-align: middle;
+  }
+
+.login1.active {
+    background-color: #eb7e02;
+    color: black;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Symbols Outlined', sans-serif;
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+/*Renzos Login Page*/
+
+.login {
+    width: 400px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+  border-radius: 25px;
+}
+
+.login h1 {
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-size: 24px;
+    padding: 20px 0 0px 0;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 51.5px;
+    background-color: #eb7e02;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    background-color: #969696;
+    border: 1px solid #bdbdbd;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+   margin-top: 20px;
+    background-color: #eb7e02;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.login form input[type="submit"]:hover {
+  background-color: #d37000;
+    transition: background-color 0.2s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
